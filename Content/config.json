@@ -1,0 +1,32 @@
+{
+  // CyrodiilRP Sanctuary, server settings. Every key is optional; see README.md.
+
+  "enabled": true,
+
+  // Area ids added to the Imperial City or taken out of it. The Arena is never part of the Sanctuary.
+  "extraAreas": [],
+  "excludedAreas": [],
+
+  // For protected players. true: every drop in health inside the city is put back (players, NPCs, falls).
+  // false: only drops a player is suspected of, so hunger or poison mods still bite.
+  // NPCs and guards always get every drop back.
+  "healAllDamage": true,
+
+  // How a hit is pinned on a player. Distances in centimeters (400 = 4 m).
+  "meleeRange": 400,
+  "rangedRange": 4000,
+  "attackWindowSeconds": 1.5,
+
+  // Hits on one victim this close together are one incident in the log.
+  "incidentSeconds": 3,
+
+  // A player who attacks anyone inside the city loses the protection for this long after the last attack,
+  // or until they die.
+  "aggressorSeconds": 300,
+
+  // Bounty added when a player becomes an aggressor, so the guards go after them. 0 adds none.
+  "bounty": 40,
+
+  // ReadyM account ids of staff who see a line on screen for every new aggressor.
+  "staffAccounts": []
+}

@@ -1,0 +1,14 @@
+{
+  "uniqueId": "CyrodiilRP.Sanctuary",
+  "version": "0.2.0",
+  "name": "CyrodiilRP Sanctuary",
+  "author": "Piotr 'Pete' Romanczyk",
+  "description": "The Imperial City inside its walls is a sanctuary: NPCs, guards and peaceful players cannot be hurt there; a player who attacks anyone loses the protection. The Arena is excluded.",
+  "link": "",
+  "dependencies": [
+    {
+      "uniqueId": "OblivionMP.SDK",
+      "minimumVersion": "1.0.0"
+    }
+  ]
+}
